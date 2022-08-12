@@ -47,7 +47,9 @@ DATABASES = secrets["DATABASES"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".dmtools.info"]
+## ALLOWED_HOSTS = [".dmtools.info"]
+
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
