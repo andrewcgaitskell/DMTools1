@@ -44,13 +44,6 @@ DATABASES = secrets["DATABASES"]
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'django-insecure-685=i#!qc_@zjmc3@%io8tvtqv_7d03&qxqjz6g_2&a2ylqqhm'
-
-
-# SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'django-insecure-685=i#!qc_@zjmc3@%io8tvtqv_7d03&qxqjz6g_2&a2ylqqhm'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
