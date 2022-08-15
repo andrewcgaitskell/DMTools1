@@ -15,10 +15,10 @@ bind = "localhost:8080"
 # Restart workers when code changes (development only!)
 reload = True
 # Write access and error info to /var/log
-accesslog = errorlog = "/var/log/gunicorn/dev.log"
+accesslog = errorlog = "/home/andrew_gaitskell/log/gunicorn/dev.log"
 # Redirect stdout/stderr to log file
 capture_output = True
 # PID file so you can easily fetch process ID
-pidfile = "/var/run/gunicorn/dev.pid"
+pidfile = "/home/andrew_gaitskell/run/gunicorn/dev.pid"
 # Daemonize the Gunicorn process (detach & enter background)
 daemon = True
