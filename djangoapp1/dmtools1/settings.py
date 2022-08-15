@@ -13,6 +13,8 @@ import os
 
 from pathlib import Path
 
+FORCE_SCRIPT_NAME = '/app'
+
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
